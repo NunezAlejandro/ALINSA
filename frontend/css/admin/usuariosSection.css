@@ -1,0 +1,151 @@
+#usuariosSection {
+    padding: 20px 0;
+}
+
+#usuariosSection form {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+#usuariosSection form .form-group {
+    margin-bottom: 15px;
+}
+
+#usuariosSection form label {
+    font-weight: 600;
+    color: var(--menta-dark);
+}
+
+#usuariosSection form input,
+#usuariosSection form select {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+}
+
+#usuariosSection form input:focus,
+#usuariosSection form select:focus {
+    outline: none;
+    border-color: var(--menta);
+}
+
+#usuariosSection form button {
+    background-color: var(--menta-dark);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+}
+
+#usuariosSection form button:hover {
+    background-color: #2d7a5c;
+}
+
+#usuariosTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+#usuariosTable thead {
+    background-color: var(--menta);
+    color: #fff;
+}
+
+#usuariosTable th,
+#usuariosTable td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#usuariosTable tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+#usuariosTable tbody tr:hover {
+    background-color: var(--menta-light);
+}
+
+#usuariosTable button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+#usuariosTable .edit-btn {
+    background-color: #ffc107;
+    border: none;
+    color: #fff;
+}
+
+#usuariosTable .edit-btn:hover {
+    background-color: #e0a800;
+}
+
+#usuariosTable .delete-btn {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+}
+
+#usuariosTable .delete-btn:hover {
+    background-color: #c82333;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    #usuariosSection h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #usuariosSection form {
+        padding: 15px;
+    }
+
+    #usuariosTable th,
+    #usuariosTable td {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #usuariosSection {
+        padding: 10px;
+    }
+
+    #usuariosSection form {
+        box-shadow: none;
+        border-radius: 0.5rem;
+    }
+
+    #usuariosTable {
+        font-size: 0.85rem;
+    }
+
+    #usuariosTable th,
+    #usuariosTable td {
+        padding: 8px 10px;
+    }
+
+    #usuariosTable button {
+        padding: 4px 8px;
+        font-size: 0.8rem;
+    }
+}

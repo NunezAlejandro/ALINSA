@@ -1,0 +1,76 @@
+#aulasSection {
+    padding: 20px 0;
+}
+
+#aulasSection form {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+#aulasSection form label {
+    font-weight: 600;
+    color: var(--menta-dark);
+}
+
+#aulasSection form input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+}
+
+#aulasSection form input:focus {
+    outline: none;
+    border-color: var(--menta);
+}
+
+#aulasSection form button {
+    background-color: var(--menta-dark);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+}
+
+#aulasSection form button:hover {
+    background-color: #2d7a5c;
+}
+
+#aulasTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+#aulasTable thead {
+    background-color: var(--menta);
+    color: #fff;
+}
+
+#aulasTable th, #aulasTable td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#aulasTable tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+#aulasTable tbody tr:hover {
+    background-color: var(--menta-light);
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 1rem;
+}

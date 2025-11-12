@@ -1,0 +1,50 @@
+#configuracionSection {
+    padding: 20px 0;
+}
+
+#configuracionSection h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--menta-dark);
+}
+
+#configuracionSection p {
+    font-size: 1rem;
+    color: var(--text-dark);
+    margin-bottom: 20px;
+}
+
+#configuracionSection form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+#configuracionSection form label {
+    font-weight: 600;
+    color: var(--menta-dark);
+}
+
+#configuracionSection form input,
+#configuracionSection form select {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+#configuracionSection form button {
+    background-color: var(--menta-dark);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    transition: background 0.3s;
+}
+
+#configuracionSection form button:hover {
+    background-color: #2d7a5c;
+}

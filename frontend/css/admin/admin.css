@@ -1,0 +1,60 @@
+.section {
+    padding: 20px 0;
+}
+
+.section h2 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--menta-dark);
+}
+
+.section p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#inicioSection .card {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #ffffff, var(--menta-light));
+    padding: 30px;
+    border-radius: 1rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#inicioSection .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.25);
+}
+
+#inicioSection .card i {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    color: var(--menta-dark);
+}
+
+#inicioSection .card h5 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#inicioSection .card p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--menta-dark);
+}
+
+.btn-menta-dark {
+    background-color: var(--menta-dark);
+    color: var(--text-light);
+    border: none;
+    transition: background 0.3s;
+}
+
+.btn-menta-dark:hover {
+    background-color: #2d7a5c;
+}

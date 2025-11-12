@@ -1,0 +1,129 @@
+#historialSection {
+    padding: 20px 0;
+}
+
+#historialTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+#historialTable thead {
+    background-color: var(--menta);
+    color: #fff;
+}
+
+#historialTable th,
+#historialTable td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#historialTable tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+#historialTable tbody tr:hover {
+    background-color: var(--menta-light);
+}
+
+#historialTable button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+#historialTable .editar-btn {
+    background-color: #ffc107;
+    border: none;
+    color: #fff;
+}
+
+#historialTable .editar-btn:hover {
+    background-color: #e0a800;
+}
+
+#historialTable .borrar-btn {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+}
+
+#historialTable .borrar-btn:hover {
+    background-color: #c82333;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    #historialSection h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #historialTable th,
+    #historialTable td {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #historialSection {
+        padding: 10px;
+    }
+
+    #historialTable {
+        font-size: 0.85rem;
+    }
+
+    #historialTable th,
+    #historialTable td {
+        padding: 8px 10px;
+    }
+
+    #historialTable button {
+        padding: 4px 8px;
+        font-size: 0.8rem;
+    }
+}
+
+.confirm-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.35);
+    z-index: 10500;
+}
+
+.confirm-modal {
+    background: var(--bg-light, #fff);
+    color: var(--text-dark, #222);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+    min-width: 280px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.confirm-modal p {
+    margin: 0 0 12px 0;
+    font-weight: 600;
+}
+
+.confirm-actions {
+    display:flex;
+    gap:10px;
+    justify-content:center;
+}

@@ -1,0 +1,80 @@
+#reportesSection {
+    padding: 20px 0;
+}
+
+#reportesSection h2 {
+    margin-bottom: 15px;
+    color: var(--menta-dark);
+}
+
+#reportesSection p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+#reportesSection .reportes-controls input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    transition: border 0.3s;
+}
+
+#reportesSection .reportes-controls input:focus {
+    outline: none;
+    border-color: var(--menta);
+}
+
+#reportesTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+#reportesTable thead {
+    background-color: var(--menta);
+    color: #fff;
+}
+
+#reportesTable th,
+#reportesTable td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#reportesTable tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+#reportesTable tbody tr:hover {
+    background-color: var(--menta-light);
+}
+
+#reportesTable button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+#reportesTable .ver-btn {
+    background-color: #0d6efd;
+    border: none;
+    color: #fff;
+}
+
+#reportesTable .ver-btn:hover {
+    background-color: #0b5ed7;
+}
+
+#reportesTable .descargar-btn {
+    background-color: #198754;
+    border: none;
+    color: #fff;
+}
+
+#reportesTable .descargar-btn:hover {
+    background-color: #157347;
+}

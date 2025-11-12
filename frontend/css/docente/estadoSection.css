@@ -1,0 +1,66 @@
+#estadoNutricionalSection {
+    padding: 20px 0;
+}
+
+#estadoNutricionalTable {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+
+#estadoNutricionalTable thead {
+    background-color: var(--menta);
+    color: #fff;
+}
+
+#estadoNutricionalTable th,
+#estadoNutricionalTable td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#estadoNutricionalTable tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+#estadoNutricionalTable tbody tr:hover {
+    background-color: var(--menta-light);
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    #estadoNutricionalSection h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #estadoNutricionalTable th,
+    #estadoNutricionalTable td {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #estadoNutricionalSection {
+        padding: 10px;
+    }
+
+    #estadoNutricionalTable {
+        font-size: 0.85rem;
+    }
+
+    #estadoNutricionalTable th,
+    #estadoNutricionalTable td {
+        padding: 8px 10px;
+    }
+}

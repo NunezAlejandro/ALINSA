@@ -1,0 +1,103 @@
+:root {
+    --menta: #4ed8a1;
+    --menta-dark: #3bb07d;
+    --menta-light: #a8f0d1;
+    --menta-text: #1f5a44;
+}
+
+body.bg-menta {
+    background: linear-gradient(135deg, var(--menta-light), var(--menta));
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    border-bottom: none;
+    background-color: var(--menta-dark);
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.card-header h2,
+.card-header small {
+    color: white;
+}
+
+.input-group-text {
+    border: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-color: var(--menta-light);
+    color: var(--menta-text);
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: 1px solid var(--menta-dark);
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(78, 216, 161, 0.3);
+    border-color: var(--menta-dark);
+}
+
+.btn-menta-dark {
+    background-color: var(--menta-dark);
+    border-color: var(--menta-dark);
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-menta-dark:hover {
+    background-color: #2d7a5c;
+    transform: translateY(-2px);
+}
+
+#errorMsg {
+    font-weight: 500;
+    font-size: 0.9rem;
+    min-height: 1.2rem;
+    color: #d9534f;
+}
+
+a.text-menta-dark {
+    color: var(--menta-dark);
+    text-decoration: none;
+}
+
+a.text-menta-dark:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .card {
+        margin: 0 1rem;
+    }
+
+    .card-header h2 {
+        font-size: 1.5rem;
+    }
+
+    .card-header small {
+        font-size: 0.9rem;
+    }
+
+    .input-group-text {
+        font-size: 1rem;
+    }
+}
